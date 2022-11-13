@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> HpH Botique </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section  class="sub-header">
+        <Nav>
+            <a href="index.html"><img src="images/simplelogo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Products.html">PRODUCTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </Nav>
+        <h1>BLOG</h1>
+
+    </section>
+<!-------- BLOG PAGE CONTENT --------->
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/half_dark_mode.jpg" >
+            <h2>A New jorney</h2>
+            <p>I am but a Young man who saw how people a foll Everything has to start somewhere I guess,
+                 but this story Is of how one kid made something that not only has the potential to grow.
+            On the journey of life we experience a lot and how our actions will lead us to many things that,</p>
+            
+            <p>
+             sometimes we dont plan. Yes the journey is not easy but through that rough experience we can take some 
+             of those things and grow them to something that is big and will forever grow
+            </p>
+            
+            <p>We all ask ourself one day or the other the definition of fashion: but is fashion
+             our self-expression, now you wondering “am I wearing anothers feeling “ yes , all that we do is 
+            </p>
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+
+
+
+
+
+        </div>
+                <div class="blog-right">
+                     <h3>Lovely Categories</h3>
+                <div>
+                 <span>African Prints</span>
+                 <span>8</span>
+                </div>
+                <div>
+                    <span>Zimbawean beeding</span>
+                    <span>12</span>
+                   </div>
+                   <div>
+                    <span>Night wear</span>
+                    <span>24</span>
+                   </div>
+                   <div>
+                    <span>Picknic Away</span>
+                    <span>9</span>
+                   </div>
+                   <div>
+                    <span>Summer days</span>
+                    <span>33</span>
+                   </div>
+                   <div>
+                    <span>Raining supp</span>
+                    <span>17</span>
+                   </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-------- Footer ----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>find our more about us and some of the things that we offer </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> love by <br> prince Saungweme <br></p>
+
+</section>
+
+
+
+
+
+
+
+
+<!--------JavaScript for toggle Menu-------->
+<script>
+
+    var navLinks =  document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+
+</body>
+
+</html>
+
+
